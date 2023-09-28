@@ -66,6 +66,7 @@ public class JobTest {
                 "Location: " + "Desert" + newline +
                 "Position Type: " + "Quality control" + newline +
                 "Core Competency: " + "Persistence" + newline;
+
         String actualString = job1.toString();
         assertEquals(expectedString, actualString);
     }
